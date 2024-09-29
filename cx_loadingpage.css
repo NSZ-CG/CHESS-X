@@ -16,21 +16,7 @@ body {
   
 }
 
-/* Styles for medium devices (tablets) */
-@media (min-width: 768px) {
-    body {
-        font-size: 18px;
-        margin: 20px;
-    }
-}
 
-/* Styles for large devices (desktops) */
-@media (min-width: 1024px) {
-    body {
-        font-size: 20px;
-        margin: 30px;
-    }
-}
 
 
 #logo {
