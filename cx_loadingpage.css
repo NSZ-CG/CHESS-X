@@ -8,8 +8,8 @@
 body {
   width: 100%;
   height: 100vh;
-  background: rgb(255,221,193);
-  background: linear-gradient(135deg, rgba(255,221,193,1) 49%, rgba(139,0,0,1) 49%);
+  background: rgb(255, 221, 193);
+  background: linear-gradient(135deg, #ffddc1 49%, rgba(139, 0, 0, 1) 49%);
 }
 
 #logo {
@@ -29,9 +29,44 @@ body {
   }
 }
 
-#logo path {
-  stroke: rgb(255, 255, 255);
-  stroke: width 2px;
+#logo .c {
+  stroke: rgba(139, 0, 0, 1);
+  stroke-width: 3px;
+  fill: transparent;
+  animation: draw 3s ease-in-out forwards;
+}
+
+#logo .h {
+  stroke: rgba(139, 0, 0, 1);
+  stroke-width: 3px;
+  fill: transparent;
+  animation: draw 3s ease-in-out forwards;
+}
+
+#logo .e {
+  stroke: #8b0000;
+  stroke-width: 3px;
+  fill: transparent;
+  animation: draw 3s ease-in-out forwards;
+}
+
+#logo .s1 {
+  stroke: url(#gradientStroke);
+  stroke-width: 3px;
+  fill: transparent;
+  animation: draw 3s ease-in-out forwards;
+}
+
+#logo .s2 {
+  stroke: #ffddc1;
+  stroke-width: 3px;
+  fill: transparent;
+  animation: draw 3s ease-in-out forwards;
+}
+
+#logo .x {
+  stroke: #ffddc1;
+  stroke-width: 3px;
   fill: transparent;
   animation: draw 3s ease-in-out forwards;
 }
@@ -60,7 +95,7 @@ body {
 
 #button path {
   stroke: rgb(255, 255, 255);
-  stroke: width 2px;
+  stroke-width: 2px;
   fill: transparent;
   animation: draw 3s ease-in-out forwards;
 }
