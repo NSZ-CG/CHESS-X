@@ -13,6 +13,7 @@ body {
 }
 
 #logo {
+  width: 100%;
   position: absolute;
   top: 50%;
   left: 50%;
@@ -77,6 +78,8 @@ body {
 }
 
 #button {
+
+  width: 100%;
   position: absolute;
   top: 80%;
   left: 50%;
@@ -94,6 +97,7 @@ body {
 }
 
 #button path {
+  width: 100%;
   stroke: rgb(255, 255, 255);
   stroke-width: 2px;
   fill: transparent;
@@ -106,5 +110,6 @@ body {
 }
 
 #button:hover {
-  width: 250px;
+  width: 120PX;
+  cursor: pointer;
 }
